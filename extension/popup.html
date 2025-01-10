@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Extension</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      .weather-container {
+        text-align: center;
+      }
+      .temperature {
+        font-size: 2em;
+        margin: 10px 0;
+      }
+      .description {
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="weather-container">
+      <div id="location">Loading...</div>
+      <div id="temperature" class="temperature"></div>
+      <div id="description" class="description"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
